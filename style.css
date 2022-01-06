@@ -1,0 +1,124 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+p{
+    padding-bottom: 30px;
+}
+.life{
+    color: orange;
+}
+.link-button{
+    background-image: linear-gradient(tomato, orange);
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 15px tomato;
+}
+
+.link-button:hover{
+box-shadow: 5px 5px 25px tomato;
+}
+.half-width{
+    width: 40%;
+    padding-left: 2%;
+    margin: 3%;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width img{
+    width: 90%;
+}
+
+.about-me{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+
+.recepics{
+    text-align: center;
+    margin-bottom: 100px;
+    
+}
+.items-food{
+    padding:0 60px;
+    gap: 60px;
+}
+.items{
+    box-shadow: 5px 5px 10px gray;
+    padding: 20px;
+    border-radius: 40px;
+    width: 100%;
+    transform: 0.3;
+}
+.items:hover{
+    box-shadow: 5px 5px 30px gray;
+}
+
+.items-food img{
+    width: 100%;
+    border-radius: 25px;
+}
+
+.social-media{
+    box-shadow: 5px 5px 20px gray;
+    text-align: center;
+    border-radius: 25px;
+    margin: 0 60px;
+    padding: 0 20px;
+}
+
+.socials{
+    width: 100%;
+}
+.socials h1{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.socials p{
+    margin: 0 0 5px 0;
+}
+
+.footer{
+    background-color: black;
+    margin-top: 100px;
+}
+.footer-wrap h1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    
+}
+
+.footer-wrap p{
+    text-align: center;
+    color: white;
+}
+
+.ornage{
+    color: orange;
+}
+
+#me h2{
+    padding-top: 70px;
+}
+
+#me p{
+padding-bottom: 100px;
+}
+
+#header-item h1{
+    padding-top: 70px;
+}
+
+
